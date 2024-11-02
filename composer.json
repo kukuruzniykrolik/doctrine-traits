@@ -1,5 +1,9 @@
 {
     "name": "kukuruzniykrolik/doctrine-traits",
+    "type": "library",
+    "description": "Traits for doctrine orm",
+    "keywords": ["doctrine", "trait"],
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Kukuruzniykrolik\\DoctrineTraits\\": "src/"
@@ -8,11 +12,12 @@
     "authors": [
         {
             "name": "Kukuruzniykrolik",
-            "email": "example@example.com"
+            "email": "Kukuruzniykrolik@gmail.com"
         }
     ],
     "require": {
         "php": "^8.2",
         "doctrine/orm": "^2.11 || ^3.0"
-    }
+    },
+    "minimum-stability": "dev"
 }
